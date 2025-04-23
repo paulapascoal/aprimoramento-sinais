@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@font-face{
+    font-family: 'Beba Neue';
+    src: url('../fontes/BebasNeue-Regular.otf');
+   
+}
+
+
+:root{
+    --cor1: #EDA045;
+    --cor2: #EDB745;
+    --cor3: #EB6517;
+    --cor4: #EDDF4F;
+    --cor5: #EDD094;
+
+    --fonte-universal: 'Times New Roman', Times, serif;
+    --fonte-destaque: 'Dan Serif Display', cursive;
+    --font-padrao: 'Beba Neue', cursive;
+
+
+
+}
+
+
+
+
