@@ -4,16 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 1</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="../aprimoramento-sinais/estilos/media-query.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Aula 1</h1>
         <p>Apresentação da Cultura Surda
         </p>
+        <span id="burguer" class="material-icons" onclick="clickMenu()" >dehaze</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="#">Aula 2</a></li>
+                <li><a href="#">Aula 3</a></li>
+                <li><a href="#">Aula 4</a></li>
+                <li><a href="#">Aula 5</a></li>
+                <li><a href="#">Aula 6</a></li>
+                <li><a href="#">Aula 7</a></li>
+                <li><a href="#">Aula 8</a></li>
+                <li><a href="#">Aula 9</a></li>
+                <li><a href="#">Aula 10</a></li>
+                <li><a href="#">Extra</a></li>
+            </ul>
+
+        </menu>
     </header>
     <main>
         <article>
@@ -22,10 +40,10 @@
             <p>Vamos ver algumas caracteristicas da cultura surda</p>
         </article>
         <article>
-            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRaBgOQCbbzOR2eUBW-2D24eRTVHtZweWuus7Rb1iu-JZ9UPKaBkxM-sFih4_xqAmN0BfTy0ymiO_Mp/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><img src="" alt="Tela de TV"></iframe>
+            <p><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRaBgOQCbbzOR2eUBW-2D24eRTVHtZweWuus7Rb1iu-JZ9UPKaBkxM-sFih4_xqAmN0BfTy0ymiO_Mp/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><img src="" alt="Tela de TV"></iframe></p>
 
           
-            <a href="documentos/apresentacao-conhecendo-cultura-surda.pdf" download="apresentacao-conhecendo-cultura-surda.pdf" type="application/pdf" >Clique aqui para baixar o PDF sobre <strong>Conhecendo a Cultura Surda</strong></a>
+            <a href="documentos/apresentacao-conhecendo-cultura-surda.pdf" download="apresentacao-conhecendo-cultura-surda.pdf" type="application/pdf"> <br> Clique aqui para baixar o PDF sobre <strong>Conhecendo a Cultura Surda</strong></a>
 
         </article>
         <article>
@@ -42,7 +60,7 @@
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSdbIvhvZpWlTr2cXJLcuoDuweezNmmVJMAd8-1fJw_8sbHx_4Wj9OBWNpagx4ZT6iab7ihvqSEN97b/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="397" height="590" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"><img src="" alt="Tela de TV"></iframe>
 
         
-        <a href="documentos/licoes-sign-writing.pdf" download="licoes-sign-writing.pdf" type="application/pdf">Clique aqui para baixar o PDF sobre <strong>Lições sobre o SignWriting</a>
+        <a href="documentos/licoes-sign-writing.pdf" download="licoes-sign-writing.pdf" type="application/pdf"><p>Clique aqui para baixar o PDF sobre <strong>Lições sobre o SignWriting</p> </a>
 
 
 
@@ -50,10 +68,29 @@
 
 
         <article>
-            <p>Sueli Ramalho é surda e fala 32 línguas de sinais.</p>
+            <h2>Sueli Ramalho é surda e fala 32 línguas de sinais.</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ADBUU4hshYE?si=MSlP7o5HbIjFtGRN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </article>
     </main>
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768 ){
+                itens.style.display='block'
+
+            }else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu(){
+            if (itens.style.display =='block'){
+                itens.style.display ='none'
+            } else{
+                itens.style.display ='block'
+            }
+            
+        }
+    </script>
 
     <footer>Aula do Tio F E L I P E</footer>
 </body>
