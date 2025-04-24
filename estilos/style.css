@@ -191,7 +191,7 @@ article a{
 }
 article > a:hover{
     background-color: var(--cor3);
-    color:var(--cor3);
+    color:whitesmoke;
 }
 
 
