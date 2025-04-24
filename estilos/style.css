@@ -164,6 +164,7 @@ main{
     margin-top: 8px;
     padding: 9px;
     border-radius: 10px ;
+    
 }
 
 article > h2{
@@ -190,7 +191,18 @@ article a{
 }
 article > a:hover{
     background-color: var(--cor3);
-    color: whitesmoke;
+    color:var(--cor3);
+}
+
+
+footer{
+    background-image: linear-gradient(to bottom, var(--cor3), transparent);
+    color: brown;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3em;
+
+    
 }
 
 
