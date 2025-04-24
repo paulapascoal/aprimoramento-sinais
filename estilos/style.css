@@ -69,58 +69,58 @@ thead > tr > th {
 }
 
 body, html{
-    background-color: var(--cor2);
+    background-color: var(2);
 }
 
 header{
-    background-image: linear-gradient(to left, var(--cor3), transparent);
+    background-image: linear-gradient(to left, var(), transparent);
 }
 header > h1{
-    color: white;
-    font-family: var(--fonte-destaque);
-    font-size: 1em;
-    margin: 5px 10px;
-    padding: 2px;
-    text-align: center;
+    color: ;
+    font-family: var();
+    font-size: 
+    margin: ;
+    padding: ;
+    text-align: ;
 }
 
 header > p{
-    font-family: var(--fonte-estilo);
-    background-color: white;
-    border-radius: 35px 2px;
-    padding: 20px;
-    text-align: center;
-    font-weight: bold;
+    font-family: var();
+    background-color: ;
+    border-radius: ;
+    padding: ;
+    text-align: ;
+    font-weight: ;
 }
 
 menu{
-    background-color: var(--cor5);
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
-    border-top-right-radius: 21px;
-    border-bottom-left-radius: 21px;
+    background-color: var(5);
+    text-decoration: ;
+    color: ;
+    padding:;
+    box-shadow: 
+    border-top-right-radius: ;
+    border-bottom-left-radius: ;
     
 }
 
 menu > a{
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition-duration: .5;
+    padding:;
+    border-radius:;
+    font-weight: ;
+    transition-duration:;
     
 }
 
 a{
-    text-decoration: none;
-    color: black;
+    text-decoration: ;
+    color: ;
    
 }
 
 menu a:hover{
-    background-color: var(--cor3);
-    color: var(--cor5);
+    background-color: var(--);
+    color: var();
 }
 
 
