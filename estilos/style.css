@@ -17,7 +17,7 @@
 
     --fonte-universal: 'Times New Roman', Times, serif;
     --fonte-destaque: 'Dan Serif Display', cursive;
-    --font-padrao: 'Beba Neue', cursive;
+    --fonte-padrao: 'Beba Neue', cursive;
 
 
 
@@ -69,59 +69,63 @@ thead > tr > th {
 }
 
 body, html{
-    background-color: var(2);
+    background-color: var(--cor5);
 }
 
 header{
-    background-image: linear-gradient(to left, var(), transparent);
+    background-image: linear-gradient(to left, var(--cor1), transparent);
 }
 header > h1{
     color: ;
-    font-family: var();
-    font-size: 
-    margin: ;
-    padding: ;
-    text-align: ;
+    font-family: var(--fonte-destaque);
+    font-size: 2.2em; 
+    margin: 19px;
+    padding: 9px ;
+    text-align: center ;
 }
 
 header > p{
-    font-family: var();
-    background-color: ;
-    border-radius: ;
-    padding: ;
-    text-align: ;
-    font-weight: ;
+    font-family: var(--fonte-padrao);
+    background-color: white ;
+    border-radius:10px 20px 17px 4px;
+    margin: 4px;
+    padding:13px ;
+    text-align:center ;
+    font-weight:bold ;
+    font-size: 1.2em;
 }
 
 menu{
-    background-color: var(5);
-    text-decoration: ;
-    color: ;
-    padding:;
-    box-shadow: 
-    border-top-right-radius: ;
-    border-bottom-left-radius: ;
+    background-color: var(--cor2);
+    text-decoration:none ;
+    color: black ;
+    padding:9px;
+    box-shadow:2px solid brown; 
+    border-top-right-radius: 38px ;
+    border-bottom-left-radius:22px ;
     
 }
 
 menu > a{
-    padding:;
-    border-radius:;
-    font-weight: ;
-    transition-duration:;
+    padding:9px;
+    border-radius:10px;
+    font-weight:bold ;
+    transition-duration:.2;
     
 }
 
 a{
-    text-decoration: ;
-    color: ;
+    text-decoration: none ;
+    color: rgb(73, 18, 18);
    
 }
 
 menu a:hover{
-    background-color: var(--);
-    color: var();
+    background-color: var(--cor3);
+    color: whitesmoke;
 }
+
+
 
 
 
