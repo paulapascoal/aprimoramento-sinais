@@ -30,7 +30,8 @@
 
 table{
     border-collapse: collapse;
-    background-color: aliceblue;
+    background-color: var(--cor2);
+    background-position: center;
     
    
     
@@ -44,8 +45,8 @@ thead{
 
 }
 th{
-    background: white;
-    color:var(black);
+    background:var(--cor3);
+    color:whitesmoke;
     border: 2px solid var(--cor4);
     padding: 10px;
     text-align: center;
@@ -53,9 +54,15 @@ th{
 
 }
 
+.titulo{
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 td{
     border: 2px solid var(--cor4);
-    color:var(--cor3);
+    color:black;
     font-weight: bold;
     padding: 10px;
     text-align: center;
@@ -69,11 +76,16 @@ thead > tr > th {
 }
 
 body, html{
-    background-color: var(--cor5);
+    background-color: var(--cor3);
 }
 
 header{
-    background-image: linear-gradient(to left, var(--cor1), transparent);
+    background-image: linear-gradient(to bottom, var(--cor1), transparent);
+    min: width 300px; ;
+    max-width: 1000px ;
+    margin: auto ;
+    margin-top: 8px;
+    padding: 9px;
 }
 header > h1{
     color: black ;
@@ -141,6 +153,7 @@ menu a:hover{
 
 menu{
     display: none;
+    
 }
 menu > ul{
     list-style-type: none;
@@ -159,20 +172,25 @@ menu > ul > li > a{
 
 main{
     min: width 300px; ;
-    max-width: 1050px ;
+    max-width: 1000px ;
     margin: auto ;
     margin-top: 8px;
     padding: 9px;
-    border-radius: 10px ;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+
     
 }
 
 article > h2{
-    background-image: linear-gradient(to top, var(--cor3), transparent);
+    background-color: var(--cor3);
     font-family: var(--fonte-destaque);
-    padding-bottom: 8px;
+    padding-bottom: 2px;
     text-align: center;
-    color: black;
+    color: brown;
 }
 
 article > p{
@@ -188,11 +206,41 @@ article a{
     text-decoration: none ;
     color: rgb(73, 18, 18);
     font-size: 1.2em;
+    font-weight: bold;
+    padding: 2px 6px;
 }
 article > a:hover{
     background-color: var(--cor3);
     color:whitesmoke;
 }
+
+main strong{
+    color: #799FCC;
+    font-weight: bold;
+}
+
+.slide{
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    min: width 300px;
+    max-width: 1000px;
+    
+
+}
+
+.pdf{
+    margin: 6px -20px 30px 36px;
+    padding: 19px
+}
+.video{
+    width: 560px;
+    height: 315px;
+    
+    
+}
+
+
+
 
 
 footer{
