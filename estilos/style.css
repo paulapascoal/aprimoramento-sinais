@@ -220,6 +220,7 @@ main strong{
 }
 
 .slide{
+    background-color: var(--cor4);
     margin: 0px -20px 30px -20px;
     padding: 20px;
     min: width 300px;
@@ -229,14 +230,28 @@ main strong{
 }
 
 .pdf{
+    background-color: var(--cor4);
     margin: 6px -20px 30px 36px;
     padding: 19px
 }
 .video{
-    width: 560px;
-    height: 315px;
+    background-color: var(--cor4);
+    margin: 7px 38px 11px 4px;
+    padding: 13px;
+    position: relative;
+    margin: auto;
     
     
+    
+}
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90% ;
+    height: 90%;
+
+
 }
 
 .imagem{
@@ -255,7 +270,7 @@ footer{
     color: brown;
     font-weight: bolder;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
 
     
 }
