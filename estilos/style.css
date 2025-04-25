@@ -217,24 +217,28 @@ article > a:hover{
 }
 
 main strong{
-    color: #799FCC;
+    color: #629be0;
     font-weight: bold;
 }
 
+
 .slide{
     background-color: var(--cor4);
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
+    margin: 7px 38px 11px 4px;
+    padding: 13px;
     min: width 300px;
     max-width: 1000px;
+   
     
 
 }
 
 .pdf{
     background-color: var(--cor4);
-    margin: 6px -20px 30px 36px;
-    padding: 19px
+    margin: 7px 38px 11px 4px;
+    padding: 13px;
+    min: width 300px;
+    max-width: 1000px;
 }
 .video{
     background-color: var(--cor4);
@@ -248,10 +252,9 @@ main strong{
 }
 .video > iframe{
     position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90% ;
+    width: 90%;
     height: 90%;
+    
 
 
 }
@@ -268,11 +271,19 @@ main strong{
 
 
 footer{
-    background-image: linear-gradient(to bottom, var(--cor3), transparent);
+    background-color: var(--cor5);
     color: brown;
     font-weight: bolder;
     text-align: center;
     font-size: 2em;
+    min: width 300px; ;
+    max-width: 1000px ;
+    margin: auto;
+    margin-top: 8px;
+    padding: 9px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 
     
 }
