@@ -225,8 +225,7 @@ main strong{
     background-color: var(--cor4);
     margin: 7px 38px 11px 4px;
     padding: 13px;
-    min: width 300px;
-    max-width: 1000px;
+   width: 300px;
 }
 
 
