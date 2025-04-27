@@ -221,6 +221,17 @@ main strong{
     font-weight: bold;
 }
 
+.interno{
+    background-color: var(--cor4);
+    margin: 7px 38px 11px 4px;
+    padding: 13px;
+    position: relative;
+    margin: auto;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+}
+
 
 .slide{
     background-color: var(--cor4);
@@ -265,6 +276,7 @@ main strong{
     height: 50px;
     background-position: bottom;
 }
+
 
 
 
