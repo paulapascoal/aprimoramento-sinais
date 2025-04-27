@@ -225,11 +225,8 @@ main strong{
     background-color: var(--cor4);
     margin: 7px 38px 11px 4px;
     padding: 13px;
-    position: relative;
-    margin: auto;
-    position: absolute;
-    width: 90%;
-    height: 90%;
+    min: width 300px;
+    max-width: 1000px;
 }
 
 
