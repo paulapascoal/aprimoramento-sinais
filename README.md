@@ -1,19 +1,37 @@
-# 🚦 Projeto: Aprimoramento de Sinais
+# 🚦 Aprimoramento de Sinais – Plataforma Educacional Web
 
-Este projeto foi desenvolvido para aprimorar os conhecimentos em HTML, CSS e JavaScript através da criação de uma página interativa sobre sinais de trânsito. O foco foi criar um layout informativo e com funcionalidades dinâmicas.
+Plataforma educacional desenvolvida para organizar e disponibilizar conteúdos de aulas de Libras, incluindo materiais em vídeo, slides, PDFs e links externos, com foco em acessibilidade, responsividade e usabilidade.
 
----
+## 🎯 Objetivo do Projeto
+Criar um ponto de acesso centralizado para alunos acompanharem aulas presenciais, revisarem conteúdos e acessarem materiais complementares de forma simples e responsiva.
 
-### 🚀 Demonstração
+## 🧩 Problema Resolvido
+Antes, os conteúdos estavam dispersos (slides, vídeos e PDFs em locais diferentes).  
+A plataforma centraliza tudo em um único ambiente, facilitando o acesso e a continuidade do aprendizado.
 
-Acesse a versão ao vivo do projeto, hospedada no GitHub Pages:
+## 💻 Funcionalidades
+- Menu responsivo com toggle (mobile-first)
+- Organização das aulas por páginas individuais
+- Incorporação de vídeos (YouTube, Vimeo)
+- Slides e PDFs integrados
+- Links externos para estudos complementares
+- Layout adaptado para dispositivos móveis
 
--   **Acesse aqui:** [**https://paulapascoal.github.io/aprimoramento-sinais/**](https://paulapascoal.github.io/aprimoramento-sinais/)
+## 🛠️ Tecnologias Utilizadas
+- HTML5 (estrutura semântica)
+- CSS3 (layout responsivo, variáveis, fontes personalizadas)
+- JavaScript (controle de menu responsivo)
+- Google Fonts e Material Icons
+- GitHub Pages para hospedagem
 
----
+## 🌐 Demonstração
+🔗 https://paulapascoal.github.io/aprimoramento-sinais/
 
-### 🛠️ Tecnologias Utilizadas
+## 📌 Aprendizados
+- Estruturação de projetos educacionais reais
+- Organização de múltiplos tipos de mídia
+- Responsividade sem frameworks
+- Boas práticas de versionamento com GitHub
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+## 📂 Status do Projeto
+Projeto funcional e aberto a melhorias visuais e de acessibilidade.
