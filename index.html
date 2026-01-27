@@ -3,91 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sinais</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>Aprimoramento de Sinais</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-   
-  
-       
-    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body onresize="mudouTamanho()">
-    <header>
-        <h1>Site desenvolvido para as aulas de Aprimoramento de Sinais</h1>
-        <p>Você terá acesso às gravações das aulas e conteúdos complementares, caso perca presencialmente.</p>
-        <span id="burguer" class="material-icons" onclick="clickMenu()" >dehaze</span>
-        <menu id="itens">
-            <ul>
-                <li><a href="aula1.html">Aula 1</a></li>
-                <li><a href="aula2.html">Aula 2</a></li>
-                <li><a href="aula3.html">Aula 3</a></li>
-                <li><a href="aula4.html">Aula 4</a></li>
-                <li><a href="aula5.html">Aula 5</a></li>
-                <li><a href="#">Aula 6</a></li>
-                <li><a href="aula7.html">Aula 7</a></li>
-                <li><a href="#">Aula 8</a></li>
-                <li><a href="#">Aula 9</a></li>
-                <li><a href="#">Aula 10</a></li>
-                <li><a href="#">Extra</a></li>
-            </ul>
 
-        </menu>
-    </header>
-    <main>
-        <table>
-            <tr>
-                <th class="titulo">Data</th>
-                <td class="titulo">Conteúdo</td>
-            </tr>
-            <tr>
-                <th>20/04/2025</th>
-                <td>Cultura Surda</td>
-            </tr>
-            <tr>
-                <th>27/04/2025</th>
-                <td>Princípios da sinalização correta</td>
-            </tr>
-            <tr>
-                <th>18/05/2025</th>
-                <td>Estrutura de Frase</td>
-            </tr>
-            <tr>
-                <th>01/06/2025</th>
-                <td>Personificação</td>
-            </tr>
-            <tr>
-                <th>08/06/2025</th>
-                <td>Classificadores</td>
-            </tr>
-            <tr>
-                <th>22/06/2025</th>
-                <td>Expressões Faciais</td>
-                
-            </tr>
-            <tr>
-                <th>06/07/2025</th>
-                <td>Fluência</td>
-            </tr>
-            <tr>
-                <th>13/07/2025</th>
-                <td>Naturalidade</td>
-            </tr>
-            <tr>
-                <th>20/07/2025</th>
-                <td>Teatro</td>
-            </tr>
-            <tr>
-                <th>27/07/2025</th>
-                <td>Teatro</td>
-            </tr>
-        </table>
-        
-    </main>
-    <script src ="script.js" ></script>
-    
+<body>
+<header>
+    <h1>Aprimoramento de Sinais</h1>
+    <p>Plataforma educacional de apoio às aulas de Libras</p>
 
-    <footer>Aula do Tio FELIPE</footer>
-    
+    <span id="burguer" class="material-icons" onclick="clickMenu()">dehaze</span>
+    <menu id="itens">
+        <ul>
+            <li><a href="aula1.html">Aula 1</a></li>
+            <li><a href="aula2.html">Aula 2</a></li>
+            <li><a href="aula3.html">Aula 3</a></li>
+            <li><a href="aula4.html">Aula 4</a></li>
+            <li><a href="aula5.html">Aula 5</a></li>
+            <li><a href="aula7.html">Aula 7</a></li>
+        </ul>
+    </menu>
+</header>
+
+<main>
+    <section class="intro">
+        <h2>Sobre o Projeto</h2>
+        <p>
+            Esta plataforma foi desenvolvida para centralizar conteúdos educacionais
+            relacionados ao aprendizado de Libras, reunindo aulas, vídeos, slides e
+            materiais complementares em um único ambiente.
+        </p>
+    </section>
+
+    <table>
+        <tr>
+            <th>Data</th>
+            <th>Conteúdo</th>
+        </tr>
+        <tr><td>20/04/2025</td><td>Cultura Surda</td></tr>
+        <tr><td>27/04/2025</td><td>Sinalização Correta</td></tr>
+        <tr><td>18/05/2025</td><td>Estrutura de Frase</td></tr>
+        <tr><td>01/06/2025</td><td>Personificação</td></tr>
+        <tr><td>08/06/2025</td><td>Classificadores</td></tr>
+    </table>
+</main>
+
+<footer>
+    Aula do Tio Felipe
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
