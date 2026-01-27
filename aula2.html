@@ -3,74 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 2</title>
+    <title>Aula 2 – Sinalização Correta</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body onresize="mudouTamanho()">
-    <header>
-        <h1>Aula 2</h1>
-        <p>Apresentação da Cultura Surda
+
+<body>
+<header>
+    <h1>Aula 2</h1>
+    <p>Princípios da Sinalização Correta</p>
+
+    <span id="burguer" class="material-icons" onclick="clickMenu()">dehaze</span>
+    <menu id="itens">
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="aula1.html">Aula Anterior</a></li>
+            <li><a href="aula3.html">Próxima Aula</a></li>
+        </ul>
+    </menu>
+</header>
+
+<main>
+    <article>
+        <h2>Conteúdo da Aula</h2>
+        <p>
+            Nesta aula são apresentados os princípios fundamentais para uma
+            sinalização correta em Libras, abordando clareza, expressão e estrutura.
         </p>
-        <span id="burguer" class="material-icons" onclick="clickMenu()" >dehaze</span>
-        <menu id="itens">
-            <ul>
-                <li><a href="index.html">Página Principal</a></li>
-                <li><a href="aula1.html">Aula 1</a></li>
-                <li><a href="aula3.html">Aula 3</a></li>
-                <li><a href="aula4.html">Aula 4</a></li>
-                <li><a href="aula5.html">Aula 5</a></li>
-                <li><a href="#">Aula 6</a></li>
-                <li><a href="aula7.html">Aula 7</a></li>
-                <li><a href="#">Aula 8</a></li>
-                <li><a href="#">Aula 9</a></li>
-                <li><a href="#">Aula 10</a></li>
-                <li><a href="#">Extra</a></li>
-            </ul>
+    </article>
 
-        </menu>
-    </header>
-    
-</body>
-        <main>
-            <article>
-                <h2>Aprendizado</h2>
-                <p>Nosso cérebro tem uma capacidade incrível de aprendizado</p>
-                <div><iframe class="video" src="https://player.vimeo.com/video/1079196134?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"  title="neuronio"></iframe></div>
-               
-              
+    <article>
+        <h2>Material de Apoio</h2>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTTvwdARIBvxtWMXrnNYEvgFhj7KfxvHRM4kWyi07b83XWCioL09C0_OqMjRX1ywotwFWTzTikyT--w/pubembed"></iframe>
 
-            </article>
-
-                <article>
-                    <h2>Principios para a Sinalização Correta</h2>
-                    <p>Para uma sinalização correta precisamos aprender 5 pontos importantes.</p>
-                    <iframe class="slide" src="https://docs.google.com/presentation/d/e/2PACX-1vTTvwdARIBvxtWMXrnNYEvgFhj7KfxvHRM4kWyi07b83XWCioL09C0_OqMjRX1ywotwFWTzTikyT--w/pubembed?start=false&loop=false&delayms=3000" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-                    <a href="documentos/sinalizacao-correta.pdf" download="sinalizacao-correta.pdf" type="application/pdf"> <br> Clique aqui para baixar o PDF sobre <strong>Princípios da Sinalização Correta</strong></a>
-
-                </article>
-
-                <article>
-                    <h2>Gravação</h2>
-                    <p>A aula foi gravada para aqueles que não puderam estar presente assistir e quem desejar ver novamente.</p>
-                    <p>Mas o vídeo por segurança está ficando no <strong>Google Drive </strong>de forma privada. Aqueles que desejarem assistir é só <strong>clicar na imagem</strong> abaixo que será direcionada para o <strong>Google Drive</strong> onde poderão perdir a acesso para assistir os vídeos.  </p>
-                    <a href="https://drive.google.com/drive/folders/1kudPmz4-sqDiNWqsz8l0t5Ej8Fp-aUoX?usp=drive_link" target="_blank" ><img class="imagem" src="imagens/google-drive.png" alt="Logo Google Drive"></a>
-
-                
-                    
-                    
-
-        </main>
-
-
-        <script src ="script.js" ></script>
+        <p>
+            <a href="documentos/sinalizacao-correta.pdf" download>
+                📥 Baixar PDF – Princípios da Sinalização Correta
+            </a>
+        </p>
+    </article>
+</main>
 
 <footer>
-        <p>Aula do Tio FELIPE</p>
-        
-        <p>Tia Lorena Tia Dani</p>
-
+    Aula do Tio Felipe
 </footer>
+
+<script src="script.js"></script>
+</body>
 </html>
